@@ -29,8 +29,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# claude code
-.claude/
+# claude code (keep skills and commands, ignore session data)
+.claude/*
+!.claude/commands/
+!.claude/skills/
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
