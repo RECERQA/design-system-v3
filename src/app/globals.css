@@ -1,26 +1,260 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "react-datasheet-grid/dist/style.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-noto-sans-jp);
   --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* Projection AI Design Tokens */
+  --radius: 0.5rem;
+
+  /* Main colors - matching original site */
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(222.2 84% 4.9%);
+
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(222.2 84% 4.9%);
+
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(222.2 84% 4.9%);
+
+  --primary: hsl(217 91% 60%);
+  --primary-foreground: hsl(0 0% 100%);
+
+  --secondary: hsl(210 40% 96.1%);
+  --secondary-foreground: hsl(222.2 84% 4.9%);
+
+  --muted: hsl(210 40% 96.1%);
+  --muted-foreground: hsl(215.4 16.3% 46.9%);
+
+  --accent: hsl(210 40% 96.1%);
+  --accent-foreground: hsl(222.2 84% 4.9%);
+
+  --destructive: hsl(0 84.2% 60.2%);
+  --destructive-foreground: hsl(0 0% 100%);
+
+  --border: hsl(214.3 31.8% 91.4%);
+  --input: hsl(214.3 31.8% 91.4%);
+  --ring: hsl(217 91% 60%);
+
+  /* Chart colors */
+  --chart-1: hsl(217 91% 60%);
+  --chart-2: hsl(142 76% 36%);
+  --chart-3: hsl(38 92% 50%);
+  --chart-4: hsl(0 84% 60%);
+  --chart-5: hsl(262 83% 58%);
+
+  /* Sidebar specific - matching original site exactly */
+  --sidebar: hsl(0 0% 98%);                    /* rgb(250,250,250) = #fafafa */
+  --sidebar-foreground: hsl(240 3.8% 26.1%);  /* rgb(63,63,70) = #3f3f46 = zinc-700 */
+  --sidebar-primary: hsl(217 91% 60%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(240 4.8% 95.9%);      /* rgb(244,244,245) = #f4f4f5 = zinc-100 */
+  --sidebar-accent-foreground: hsl(240 5.9% 10%); /* rgb(24,24,27) = #18181b = zinc-900 */
+  --sidebar-border: hsl(240 3.8% 26.1% / 0.2); /* rgba(63,63,70,0.2) for sub-menu border */
+  --sidebar-ring: hsl(217 91% 60%);
+
+  /* Custom colors from original site */
+  --sand-50: hsl(40 33% 98%);
+  --sand-100: hsl(40 25% 95%);
+  --sand-200: hsl(40 20% 90%);
+  --sand-600: hsl(40 10% 40%);
+  --sand-700: hsl(40 10% 30%);
+  --mint: hsl(162 63% 41%);
+  --mint-50: hsl(162 63% 96%);
+}
+
+.dark {
+  --background: hsl(222.2 84% 4.9%);
+  --foreground: hsl(0 0% 98%);
+  --card: hsl(222.2 84% 4.9%);
+  --card-foreground: hsl(0 0% 98%);
+  --popover: hsl(222.2 84% 4.9%);
+  --popover-foreground: hsl(0 0% 98%);
+  --primary: hsl(217 91% 60%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(217.2 32.6% 17.5%);
+  --secondary-foreground: hsl(0 0% 98%);
+  --muted: hsl(217.2 32.6% 17.5%);
+  --muted-foreground: hsl(215 20.2% 65.1%);
+  --accent: hsl(217.2 32.6% 17.5%);
+  --accent-foreground: hsl(0 0% 98%);
+  --destructive: hsl(0 62.8% 30.6%);
+  --destructive-foreground: hsl(0 0% 98%);
+  --border: hsl(217.2 32.6% 17.5%);
+  --input: hsl(217.2 32.6% 17.5%);
+  --ring: hsl(224.3 76.3% 48%);
+  --chart-1: hsl(220 70% 50%);
+  --chart-2: hsl(160 60% 45%);
+  --chart-3: hsl(30 80% 55%);
+  --chart-4: hsl(280 65% 60%);
+  --chart-5: hsl(340 75% 55%);
+  --sidebar: hsl(222.2 84% 4.9%);
+  --sidebar-foreground: hsl(0 0% 98%);
+  --sidebar-primary: hsl(217 91% 60%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(217.2 32.6% 17.5%);
+  --sidebar-accent-foreground: hsl(0 0% 98%);
+  --sidebar-border: hsl(217.2 32.6% 17.5%);
+  --sidebar-ring: hsl(224.3 76.3% 48%);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* react-datasheet-grid custom styles */
+.dsg-container {
+  --dsg-border-color: hsl(214.3 31.8% 91.4%);
+  --dsg-selection-border-color: hsl(217 91% 60%);
+  --dsg-selection-border-radius: 0;
+  --dsg-selection-border-width: 2px;
+  --dsg-selection-background-color: hsla(217, 91%, 60%, 0.1);
+  --dsg-selection-disabled-border-color: hsl(215.4 16.3% 46.9%);
+  --dsg-selection-disabled-background-color: hsl(210 40% 96.1%);
+  --dsg-corner-indicator-width: 5px;
+  --dsg-header-text-color: hsl(215.4 16.3% 46.9%);
+  --dsg-header-active-text-color: hsl(222.2 84% 4.9%);
+  --dsg-cell-background-color: hsl(0 0% 100%);
+  --dsg-cell-disabled-background-color: hsl(210 40% 96.1%);
+  --dsg-transition-duration: 0.1s;
+  --dsg-expand-rows-indicator-width: 20px;
+  --dsg-scroll-shadow-width: 7px;
+  --dsg-scroll-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.dsg-cell {
+  font-size: 0.875rem;
+}
+
+.dsg-cell-header {
+  font-weight: 600;
+  color: var(--dsg-header-text-color);
+}
+
+/* Sidebar custom styles - pixel-perfect matching original site */
+[data-sidebar="sidebar"] {
+  --sidebar-width: 255px;
+}
+
+[data-slot="sidebar-wrapper"] {
+  --sidebar-width: 255px;
+}
+
+/* Sidebar header - 64px height, 8px padding */
+[data-sidebar="header"] {
+  padding: 8px !important;
+  min-height: 64px;
+}
+
+/* Sidebar content - 8px gap */
+[data-sidebar="content"] {
+  gap: 8px;
+}
+
+/* Sidebar group - 8px padding */
+[data-sidebar="group"] {
+  padding: 8px !important;
+}
+
+/* Menu items gap */
+[data-sidebar="menu"] {
+  gap: 4px;
+}
+
+/* Menu button - 32px height, 8px padding, 8px gap */
+[data-sidebar="menu-button"] {
+  height: 32px;
+  padding: 8px !important;
+  gap: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Menu button large size (header) */
+[data-sidebar="menu-button"][data-size="lg"] {
+  height: 48px;
+}
+
+/* Sub-menu container - matching original */
+[data-sidebar="menu-sub"] {
+  margin-left: 14px !important;
+  padding: 2px 10px !important;
+  gap: 4px;
+  border-left: 1px solid hsl(240 3.8% 26.1% / 0.2);
+}
+
+/* Sub-menu button - 28px height */
+[data-sidebar="menu-sub-button"] {
+  height: 28px;
+  padding: 0 8px !important;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+/* Active state styling */
+[data-sidebar="menu-sub-button"][data-active="true"] {
+  background-color: hsl(240 4.8% 95.9%);
+  color: hsl(240 5.9% 10%);
+}
+
+/* Sidebar footer - user section */
+[data-sidebar="footer"] {
+  padding: 8px !important;
+  border-top: none;
+}
+
+/* Icon sizes */
+[data-sidebar] svg {
+  width: 16px;
+  height: 16px;
 }
