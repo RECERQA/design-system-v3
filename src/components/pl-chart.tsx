@@ -55,26 +55,6 @@ const data = [
 export function PLChart() {
   return (
     <div className="w-full">
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-2">
-          <h2 className="text-lg font-semibold">PL</h2>
-          <span className="text-muted-foreground text-sm">百万円</span>
-        </div>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2 text-sm">
-            <div className="w-3 h-3 rounded-full bg-primary" />
-            <span>ARR</span>
-          </div>
-          <div className="flex items-center gap-2 text-sm">
-            <div className="w-3 h-3 rounded-full bg-green-500" />
-            <span>営業損益</span>
-          </div>
-          <div className="flex items-center gap-2 text-sm">
-            <div className="w-3 h-3 rounded bg-amber-500" />
-            <span>売上総利益率</span>
-          </div>
-        </div>
-      </div>
       <div className="h-[400px] w-full">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart
