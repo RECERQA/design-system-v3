@@ -35,7 +35,7 @@ export function AppHeader() {
             </BreadcrumbItem>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>
-              <BreadcrumbPage>年間PL</BreadcrumbPage>
+              <BreadcrumbPage>月次予実管理</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
