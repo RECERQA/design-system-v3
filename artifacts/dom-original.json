@@ -1,0 +1,816 @@
+[
+  {
+    "index": 0,
+    "tag": "DIV",
+    "id": null,
+    "class": "grid min-h-svh lg:grid-cols-2",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 1,
+    "tag": "DIV",
+    "id": null,
+    "class": "flex flex-col gap-4 p-6 md:p-10",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 900
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "40px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 2,
+    "tag": "DIV",
+    "id": null,
+    "class": "flex justify-center gap-2 md:justify-start",
+    "text": null,
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 640,
+      "h": 24
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 3,
+    "tag": "A",
+    "id": null,
+    "class": "flex items-center gap-2 font-medium",
+    "text": null,
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 149,
+      "h": 24
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 4,
+    "tag": "IMG",
+    "id": null,
+    "class": "h-6 w-auto",
+    "text": null,
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 149,
+      "h": 24
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "color": "rgba(0, 0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 5,
+    "tag": "DIV",
+    "id": null,
+    "class": "flex flex-1 items-center justify-center",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 40,
+      "y": 80,
+      "w": 640,
+      "h": 780
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 6,
+    "tag": "DIV",
+    "id": null,
+    "class": "w-full max-w-sm",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 168,
+      "y": 223,
+      "w": 384,
+      "h": 494
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 7,
+    "tag": "FORM",
+    "id": null,
+    "class": "flex flex-col gap-6",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 168,
+      "y": 223,
+      "w": 384,
+      "h": 494
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 8,
+    "tag": "DIV",
+    "id": null,
+    "class": "flex flex-col items-center gap-2 text-center",
+    "text": "アカウントにログインメールアドレスを入力してログインしてくだ",
+    "rect": {
+      "x": 168,
+      "y": 223,
+      "w": 384,
+      "h": 60
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 9,
+    "tag": "H1",
+    "id": null,
+    "class": "text-2xl font-bold",
+    "text": "アカウントにログイン",
+    "rect": {
+      "x": 240,
+      "y": 223,
+      "w": 240,
+      "h": 32
+    },
+    "style": {
+      "fontSize": "24px",
+      "fontWeight": "700",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 10,
+    "tag": "P",
+    "id": null,
+    "class": "text-balance text-sm text-muted-foreground",
+    "text": "メールアドレスを入力してログインしてください",
+    "rect": {
+      "x": 207,
+      "y": 263,
+      "w": 307,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(100, 116, 139)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 11,
+    "tag": "DIV",
+    "id": null,
+    "class": "grid gap-6",
+    "text": "Googleでログインまたはメールアドレスパスワードパスワー",
+    "rect": {
+      "x": 168,
+      "y": 307,
+      "w": 384,
+      "h": 310
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 12,
+    "tag": "BUTTON",
+    "id": null,
+    "class": "inline-flex items-center justify-center gap-2 whit",
+    "text": "Googleでログイン",
+    "rect": {
+      "x": 168,
+      "y": 307,
+      "w": 384,
+      "h": 36
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "padding": "8px 16px",
+      "margin": "0px",
+      "borderRadius": "6px"
+    }
+  },
+  {
+    "index": 13,
+    "tag": "svg",
+    "id": null,
+    "class": "[object SVGAnimatedString]",
+    "text": null,
+    "rect": {
+      "x": 285,
+      "y": 317,
+      "w": 16,
+      "h": 16
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px 8px 0px 0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 14,
+    "tag": "path",
+    "id": null,
+    "class": "[object SVGAnimatedString]",
+    "text": null,
+    "rect": {
+      "x": 293,
+      "y": 324,
+      "w": 7,
+      "h": 7
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 15,
+    "tag": "path",
+    "id": null,
+    "class": "[object SVGAnimatedString]",
+    "text": null,
+    "rect": {
+      "x": 287,
+      "y": 326,
+      "w": 11,
+      "h": 6
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 16,
+    "tag": "path",
+    "id": null,
+    "class": "[object SVGAnimatedString]",
+    "text": null,
+    "rect": {
+      "x": 286,
+      "y": 322,
+      "w": 3,
+      "h": 7
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 17,
+    "tag": "path",
+    "id": null,
+    "class": "[object SVGAnimatedString]",
+    "text": null,
+    "rect": {
+      "x": 287,
+      "y": 318,
+      "w": 11,
+      "h": 6
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 18,
+    "tag": "DIV",
+    "id": null,
+    "class": "relative text-center text-sm after:absolute after:",
+    "text": "または",
+    "rect": {
+      "x": 168,
+      "y": 367,
+      "w": 384,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 19,
+    "tag": "SPAN",
+    "id": null,
+    "class": "relative z-10 bg-background px-2 text-muted-foregr",
+    "text": "または",
+    "rect": {
+      "x": 331,
+      "y": 367,
+      "w": 58,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(100, 116, 139)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "padding": "0px 8px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 20,
+    "tag": "DIV",
+    "id": null,
+    "class": "grid gap-2",
+    "text": "メールアドレス",
+    "rect": {
+      "x": 168,
+      "y": 411,
+      "w": 384,
+      "h": 58
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 21,
+    "tag": "LABEL",
+    "id": null,
+    "class": "text-sm font-medium leading-none peer-disabled:cur",
+    "text": "メールアドレス",
+    "rect": {
+      "x": 168,
+      "y": 411,
+      "w": 384,
+      "h": 14
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 22,
+    "tag": "INPUT",
+    "id": "email",
+    "class": "flex h-9 w-full rounded-md border border-input bg-",
+    "text": null,
+    "rect": {
+      "x": 168,
+      "y": 433,
+      "w": 384,
+      "h": 36
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "4px 12px",
+      "margin": "0px",
+      "borderRadius": "6px"
+    }
+  },
+  {
+    "index": 23,
+    "tag": "DIV",
+    "id": null,
+    "class": "grid gap-2",
+    "text": "パスワードパスワードをお忘れですか？",
+    "rect": {
+      "x": 168,
+      "y": 493,
+      "w": 384,
+      "h": 64
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 24,
+    "tag": "DIV",
+    "id": null,
+    "class": "flex items-center",
+    "text": "パスワードパスワードをお忘れですか？",
+    "rect": {
+      "x": 168,
+      "y": 493,
+      "w": 384,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 25,
+    "tag": "LABEL",
+    "id": null,
+    "class": "text-sm font-medium leading-none peer-disabled:cur",
+    "text": "パスワード",
+    "rect": {
+      "x": 168,
+      "y": 496,
+      "w": 70,
+      "h": 14
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 26,
+    "tag": "A",
+    "id": null,
+    "class": "ml-auto text-sm underline-offset-4 hover:underline",
+    "text": "パスワードをお忘れですか？",
+    "rect": {
+      "x": 370,
+      "y": 493,
+      "w": 182,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(71, 85, 105)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px 0px 0px 132.406px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 27,
+    "tag": "INPUT",
+    "id": "password",
+    "class": "flex h-9 w-full rounded-md border border-input bg-",
+    "text": null,
+    "rect": {
+      "x": 168,
+      "y": 521,
+      "w": 384,
+      "h": 36
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "4px 12px",
+      "margin": "0px",
+      "borderRadius": "6px"
+    }
+  },
+  {
+    "index": 28,
+    "tag": "BUTTON",
+    "id": null,
+    "class": "inline-flex items-center justify-center gap-2 whit",
+    "text": "ログイン",
+    "rect": {
+      "x": 168,
+      "y": 581,
+      "w": 384,
+      "h": 36
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(30, 41, 59)",
+      "padding": "8px 16px",
+      "margin": "0px",
+      "borderRadius": "6px"
+    }
+  },
+  {
+    "index": 29,
+    "tag": "DIV",
+    "id": null,
+    "class": "text-center text-sm",
+    "text": "アカウントをお持ちでないですか？ 新規登録",
+    "rect": {
+      "x": 168,
+      "y": 641,
+      "w": 384,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 30,
+    "tag": "A",
+    "id": null,
+    "class": "underline underline-offset-4 text-slate-600 hover:",
+    "text": "新規登録",
+    "rect": {
+      "x": 445,
+      "y": 641,
+      "w": 56,
+      "h": 20
+    },
+    "style": {
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(71, 85, 105)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 31,
+    "tag": "P",
+    "id": null,
+    "class": "text-center text-xs text-muted-foreground px-8",
+    "text": "ログインすることで、利用規約およびプライバシーポリシーに同意",
+    "rect": {
+      "x": 168,
+      "y": 685,
+      "w": 384,
+      "h": 32
+    },
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(100, 116, 139)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 32px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 32,
+    "tag": "A",
+    "id": null,
+    "class": "underline underline-offset-4 text-slate-500 hover:",
+    "text": "利用規約",
+    "rect": {
+      "x": 324,
+      "y": 684,
+      "w": 48,
+      "h": 17
+    },
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(100, 116, 139)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 33,
+    "tag": "A",
+    "id": null,
+    "class": "underline underline-offset-4 text-slate-500 hover:",
+    "text": "プライバシーポリシー",
+    "rect": {
+      "x": 265,
+      "y": 684,
+      "w": 251,
+      "h": 33
+    },
+    "style": {
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "color": "rgb(100, 116, 139)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 34,
+    "tag": "DIV",
+    "id": null,
+    "class": "relative hidden lg:block",
+    "text": null,
+    "rect": {
+      "x": 720,
+      "y": 0,
+      "w": 720,
+      "h": 900
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 35,
+    "tag": "IMG",
+    "id": null,
+    "class": "absolute inset-0 h-full w-full object-cover select",
+    "text": null,
+    "rect": {
+      "x": 720,
+      "y": 0,
+      "w": 720,
+      "h": 900
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  },
+  {
+    "index": 37,
+    "tag": "OL",
+    "id": null,
+    "class": "fixed top-0 z-[100] flex max-h-screen w-full flex-",
+    "text": null,
+    "rect": {
+      "x": 1020,
+      "y": 868,
+      "w": 420,
+      "h": 32
+    },
+    "style": {
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(2, 8, 23)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "16px",
+      "margin": "0px",
+      "borderRadius": "0px"
+    }
+  }
+]

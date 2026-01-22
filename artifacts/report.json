@@ -1,0 +1,10 @@
+{
+  "diffPixels": 640400,
+  "totalPixels": 1296000,
+  "diffPercent": "49.41%",
+  "matchPercent": "50.59%",
+  "imageSize": {
+    "width": 1440,
+    "height": 900
+  }
+}

@@ -39,18 +39,18 @@ const navigationData = {
     {
       title: "モニタリング",
       icon: Activity,
+      isActive: true,
       items: [
         { title: "ダッシュボード", href: "/dashboard" },
-        { title: "月次予実管理", href: "/monthly-pl" },
+        { title: "月次予実管理", href: "/monthly-pl", isActive: true },
         { title: "レポートビルダー", href: "/report", badge: "開発" },
       ],
     },
     {
       title: "予算策定",
       icon: Calculator,
-      isActive: true,
       items: [
-        { title: "年間PL", href: "/annual-pl", isActive: true },
+        { title: "年間PL", href: "/annual-pl" },
         { title: "Sales KPI", href: "/kpi" },
         { title: "売上構成", href: "/revenue" },
         { title: "コスト", href: "/cost" },
@@ -127,13 +127,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                           <SidebarMenuSubItem key={subItem.title}>
                             <SidebarMenuSubButton
                               asChild
-                              isActive={subItem.isActive}
+                              isActive={(subItem as { isActive?: boolean }).isActive}
                             >
                               <Link href={subItem.href}>
                                 <span>{subItem.title}</span>
-                                {subItem.badge && (
+                                {(subItem as { badge?: string }).badge && (
                                   <span className="ml-auto text-xs text-muted-foreground bg-muted px-1.5 py-0.5 rounded">
-                                    {subItem.badge}
+                                    {(subItem as { badge?: string }).badge}
                                   </span>
                                 )}
                               </Link>
